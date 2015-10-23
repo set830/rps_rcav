@@ -50,6 +50,7 @@ class GameController < ApplicationController
       @computerPlayedTitle = "Scissors"
       @labelcolor = "label label-danger"
       @YouSomething = "You Lost!"
+    end
 
     render ('paper.html.erb')
   end
@@ -76,7 +77,7 @@ class GameController < ApplicationController
       @computerPlayedTitle = "Scissors"
       @labelcolor = "label label-warning"
       @YouSomething = "You Tied!"
-
+    end
     render ('scissors.html.erb')
   end
 
